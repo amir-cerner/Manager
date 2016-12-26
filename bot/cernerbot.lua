@@ -213,13 +213,11 @@ function create_config( )
   config = {
     enabled_plugins = {
 	 "admin",
-    "Manager",
+    "manager",
     "all",
-    "ingroup",
-    "inpm",
     "plugins"
     },
-    sudo_users = {,0,tonumber(our_id)},--Sudo users
+    sudo_users = {329467212,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[CerNerTeam\nsudo @Mrcliapi\nadmin:]],
     help_text_realm = [[
